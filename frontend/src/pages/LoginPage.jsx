@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 const LoginPage = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
-    email: "you@example.com",
-    password: "123456",
+    email: "",
+    password: "",
   });
 
   const { login, isLoggingIn } = useAuthStore();
